@@ -40,3 +40,37 @@ border: none;
 border-bottom-right-radius: 7%;
 border-top-right-radius: 7%;
 }
+
+main{
+    display: flex;
+    flex-flow: row wrap;
+    width: 90%;
+    margin: auto auto;
+    border:  2px solid black;
+    margin-top: 15px;
+    padding-top: 40px;
+}
+
+.item{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    background: #ffffff;
+    height: 80%;
+    width: 100%;
+    box-shadow: 0 0 20px #ccc;
+}
+
+.item-icon{
+    flex: 10%;
+    border: 1px solid red;
+}
+.item-name{
+    flex: 10%;
+    border: 1px solid red;
+}
+.item-buttom{
+    flex: 10%;
+    border: 1px solid red;
+}
